@@ -10,8 +10,7 @@ public class Pescador extends Usuario{
         this.verificado = verificado;
     }
 
-    @Override
     public String exibirInformacoes() {
-        return "Nome do Usuário: " + nome + "\nLogin: " + login + "\nSenha: " + senha + "\nRegistro: " + registro + "Usuário é verificado?" + verificado;
+        return "Nome do Usuário: " + nome + "\nLogin: " + login + "\nSenha: " + senha + "\nRegistro: " + registro + "\nUsuário é verificado? " + verificado;
     }
 }
